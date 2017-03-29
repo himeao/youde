@@ -1,0 +1,25 @@
+//
+//  Prefix.pch
+//  安邦金融test
+//
+//  Created by 刘刚 on 16/10/31.
+//  Copyright © 2016年 支梦召. All rights reserved.
+//
+
+#ifndef Prefix_h
+#define Prefix_h
+#import "SelectVC.h"
+#import "CombinationPlanVC.h"
+#import "G3TimeVC.h"
+#import "ProductVC.h"
+#import "AssetsVC.h"
+#import "ABNavigationVC.h"
+// 只要添加了这个宏，就不用带mas_前缀
+#define MAS_SHORTHAND
+// 只要添加了这个宏，equalTo就等价于mas_equalTo
+#define MAS_SHORTHAND_GLOBALS
+// 这个头文件一定要放在上面两个宏的后面
+#import "Masonry.h"
+#import "sqlite3.h"
+
+#endif /* Prefix_h */
