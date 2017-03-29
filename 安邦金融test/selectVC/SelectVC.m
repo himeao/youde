@@ -32,7 +32,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"精选";
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor blueColor];
     scl = [[UIScrollView alloc]init];
     scl.contentSize = CGSizeMake(self.view.bounds.size.width, self.view.bounds.size.height*2);
     
